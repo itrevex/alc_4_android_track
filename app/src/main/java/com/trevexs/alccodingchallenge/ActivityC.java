@@ -18,9 +18,8 @@ import com.trevexs.alccodingchallenge.databinding.ActivityCBinding;
 import java.util.Objects;
 
 public class ActivityC extends AppCompatActivity {
-    private static final String ALC_PROFILE_URL = "https://andela.com/";
+    private static final String ALC_PROFILE_URL = "https://andela.com/alc/";
 //    private static final String ALC_PROFILE_URL = "https://google.com";
-//    private static final String ALC_PROFILE_URL = "https://trevexs.com/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,8 +32,8 @@ public class ActivityC extends AppCompatActivity {
 
         binding.webView.getSettings().setJavaScriptEnabled(true);
         binding.webView.getSettings().setDomStorageEnabled(true);
-        binding.webView.getSettings().setLoadWithOverviewMode(true);
-        binding.webView.getSettings().setUseWideViewPort(true);
+//        binding.webView.getSettings().setLoadWithOverviewMode(true);
+//        binding.webView.getSettings().setUseWideViewPort(true);
 
         binding.webView.setWebViewClient(new WebViewClient(){
 
