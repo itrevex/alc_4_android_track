@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:contentDescription="@string/my_profile_picture"
+                    android:src="@drawable/profile" />
+
+                <include
+                    app:title="@{@string/track_title}"
+                    app:value="@{@string/track_value}"
+                    layout="@layout/user_description" />
+
+                <include
+                    app:title="@{@string/country_title}"
+                    app:value="@{@string/country_value}"
+                    layout="@layout/user_description" />
+
+                <include
+                    app:title="@{@string/email_title}"
+                    app:value="@{@string/email_value}"
+                    layout="@layout/user_description" />
+
+                <include
+                    app:title="@{@string/phone_title}"
+                    app:value="@{@string/phone_value}"
+                    layout="@layout/user_description" />
+
+                <include
+                    app:title="@{@string/slack_title}"
+                    app:value="@{@string/slack_value}"
+                    layout="@layout/user_description" />
+            </LinearLayout>
+        </ScrollView>
+</layout>

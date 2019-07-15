@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ALC Coding Challenge</string>
+    <string name="title_activity_b">ActivityB</string>
+    <string name="about_alc">About ALC</string>
+    <string name="about_me">About Me</string>
+    <string name="welcome_to_alc">Welcome to ALC 4.0</string>
+    <string name="activity_a_title">ALC 4 Phase 1</string>
+    <string name="my_profile_picture">My profile Picture</string>
+
+    <!--user profile-->
+    <string name="name">About Me</string>
+    <string name="track_title">Track:  </string>
+    <string name="track_value">Android</string>
+    <string name="country_title">Country:  </string>
+    <string name="country_value">Uganda</string>
+    <string name="email_title">Email:  </string>
+    <string name="email_value">trevex2000@gmail.com</string>
+    <string name="phone_title">Phone Number:  </string>
+    <string name="phone_value">+256774947099</string>
+    <string name="slack_title">Slack Username:  </string>
+    <string name="slack_value">\@trevex</string>
+    <string name="profile_title">My Profile</string>
+
+    <string name="alc_title">Andela</string>
+    <string name="loading">loading . . .</string>
+</resources>
+
